@@ -1,0 +1,49 @@
+ html, body, #map{
+      
+        text-align: center;
+        border: 1px solid white;
+        height: 100%;
+        width: 100wv;
+     }
+
+     body{
+         padding: 0;
+         margin: 0;
+     }
+
+     .container{
+         display: grid;
+         height: 100%;
+         grid-gap: 4px;
+         grid-template-columns: repeat(8,1fr);
+         grid-template-rows: 60% 40%;
+
+     }
+
+     .peta{
+         grid-column: 1/-1;
+     }
+
+     .gambar{
+         background: #b0b7c2;
+         grid-column: 1/6;
+         border: #b0b7c2 solid 1em;
+         border-radius: 10px;
+         margin: 1%;
+     }
+     
+      
+    
+
+     .review{
+         background:  #3e6dbe;
+         grid-column: 6/-1;
+         border: #3e6dbe solid 1em;
+         border-radius: 10px;
+         margin: 1%;
+         color: aliceblue;
+     }
+
+    .gambar img{
+        width:30%;
+    }
